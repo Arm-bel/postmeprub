@@ -26,14 +26,14 @@ const closePostModal = () => {
   MODAL_POST.style.transform = 'translateY(100vh)';
 };
 
-window.addEventListener('beforeinstallprompt', (e) => {
-  console.log('--------------------------');
-  console.log('anulando');
-  console.log('--------------------------');
+// window.addEventListener('beforeinstallprompt', (e) => {
+//   console.log('--------------------------');
+//   console.log('anulando');
+//   console.log('--------------------------');
   
-  e.preventDefault();
-  deferredPrompt = e;
-})
+//   e.preventDefault();
+//   deferredPrompt = e;
+// })
 
 
 /*=====  End of Funciones  ======*/
